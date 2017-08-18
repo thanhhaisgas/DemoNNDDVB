@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="ld_activityScreenTitles">
+        <item>Trang chủ</item>
+        <item>Thời sự</item>
+        <item>Thể thao</item>
+        <item>Công nghệ</item>
+        <item>Kinh doanh</item>
+        <item>Xe</item>
+        <item />
+        <item>Thoát</item>
+    </string-array>
+
+    <string-array name="link_RSS">
+        <item>http://vnexpress.net/rss/tin-moi-nhat.rss</item>
+        <item>http://vnexpress.net/rss/thoi-su.rss</item>
+        <item>http://vnexpress.net/rss/the-thao.rss</item>
+        <item>http://vnexpress.net/rss/so-hoa.rss</item>
+        <item>http://vnexpress.net/rss/kinh-doanh.rss</item>
+        <item>http://vnexpress.net/rss/oto-xe-may.rss</item>
+        <item />
+        <item>http://vnexpress.net/rss/tin-moi-nhat.rss</item>
+    </string-array>
+
+    <array name="ld_activityScreenIcons">
+        <item>@drawable/home</item>
+        <item>@drawable/news</item>
+        <item>@drawable/sport</item>
+        <item>@drawable/technology</item>
+        <item>@drawable/economy</item>
+        <item>@drawable/car</item>
+        <item>0</item>
+        <item>@drawable/exit</item>
+    </array>
+</resources>
