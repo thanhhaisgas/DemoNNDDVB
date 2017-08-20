@@ -116,10 +116,11 @@ public class Category extends AppCompatActivity implements DrawerAdapter.OnItemS
     public void onItemSelected(int position) {
         if (position == POS_EXIT) {
             finish();
+        }else {
+            txtTitle.setText(screenTitles[position]);
+            Fragment selectedScreen = FmArticle.newInstance(getResources().getStringArray(R.array.link_RSS)[position], position);
+            showFragment(selectedScreen);
         }
-        txtTitle.setText(screenTitles[position]);
-        Fragment selectedScreen = FmArticle.newInstance(getResources().getStringArray(R.array.link_RSS)[position], position);
-        showFragment(selectedScreen);
     }
 
     private void showFragment(Fragment fragment) {
